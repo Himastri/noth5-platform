@@ -10,6 +10,7 @@ Command: D:\NOTH5_PYTHON\python.exe noth5_compiler_lite.py samples/workflow.noth
 - 
 # NOTH5 Platform V80 FINAL — Most Noticed and Understood Software Factory For Sure
 
+D:\NOTH5_PYTHON\python.exe noth5_compiler_lite.py workflow.noth5 -o workflow.py
 **Author and Owner of Entire Factory: Nagendra Prasad — Email: nagendra.prasadbk@gmail.com — Bangalore, Karnataka, India**
 
 **File: NOTH5_ZENA_DEMO_V80_FINAL.py — V80 FINAL UNIQUE NAME - ZENA AUTO 20 CONTROLS ONE BY ONE - REAL POC - NOTH5 FACTORY EXE — 30KB — 105/105 PASS — READY TRUE**

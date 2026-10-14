@@ -1,19 +1,23 @@
-import eehim_db_lite
+import db
 import render
-db = None
 
-db = eehim_db_lite.open("D:/NOTH5_EXCLUSIVE/DATA/ACTIVE.db")
-total = 0
-score = 78
-if score > 70:
-    render.render_slider_inside_bubble(value=85, color="#00ff88", label="Trust Score")
-    total = total + 10
-else:
-    render.render_rating_inside_bubble(value=2, label="Low Trust")
-for user in users:
-    if user == "admin":
-        render.render_table_inside_bubble(query="SELECT * FROM BAYS")
+def main():
+    name = "ZENA"
+    bays = ["BAY-A", "BAY-B", "BAY-C"]
+    db.execute("""CREATE TABLE BAYS (id INT, name TEXT)""")
+    db.execute("""INSERT INTO BAYS VALUES (1, "BAY-A")""")
+    db.execute("""INSERT INTO BAYS VALUES (2, "BAY-B")""")
+    db.execute("""INSERT INTO BAYS VALUES (3, "BAY-C")""")
+    # STAR token detected in: SELECT * FROM BAYS
+    result = db.execute("""SELECT * FROM BAYS""")
+    if name == "ZENA":
+        render.render_chat_bubble_inside_bubble("Hi, I am ZENA - Workflow Demo")
     else:
-        render.render_card_inside_bubble(label="User Card")
+        render.render_chat_bubble_inside_bubble("Hello Guest")
+    for bay in bays:
+        render.render_slider_inside_bubble(bay)
+        render.render_gauge_inside_bubble(bay)
+    render.render_chat_bubble_inside_bubble("Workflow complete")
 
-render.render_qr_inside_bubble(value="verify-email")
+if __name__ == "__main__":
+    main()

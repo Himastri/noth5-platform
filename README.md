@@ -2,7 +2,11 @@
 NOTH5 FREE LITE — Slider and Rating render INSIDE chat bubble, not outside.
 Part of NOTH5 Factory: 105 controls (calendar, file upload, map, chart, table) + Local DB 75k req/sec.
 Pip: noth5-free-lite | Live Demo: https://huggingface.co/spaces/Nagendra75/noth5-free-lite
-
+Canonical compiler: root noth5_compiler_lite.py V5
+Command: D:\NOTH5_PYTHON\python.exe noth5_compiler_lite.py samples/workflow.noth5 -o samples/workflow.py
+- STAR token: YES
+- db.execute(): YES (not comment)
+- render.render_*_inside_bubble: YES
 # NOTH5 Platform V80 FINAL — Most Noticed and Understood Software Factory For Sure
 
 **Author and Owner of Entire Factory: Nagendra Prasad — Email: nagendra.prasadbk@gmail.com — Bangalore, Karnataka, India**

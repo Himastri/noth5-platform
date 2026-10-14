@@ -186,7 +186,7 @@ class CodeGen:
                 if 'query' in p: args.append(f"query=\"{p['query']}\"")
                 self.emit(f"render.render_{c}_inside_bubble({', '.join(args)})")
             elif n.typ == 'SQL':
-                self.emit(f"# {n.kw} {n.rest}")
+                self.emit(f'db.execute("{n.kw} {n.rest}")  # Lite: prints, Full factory executes with 75k rps')
 
     def generate(self):
         self.gen_nodes(self.nodes)

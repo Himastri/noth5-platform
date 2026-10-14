@@ -1,0 +1,4 @@
+[EEHIM DB Lite] open D:/NOTH5_EXCLUSIVE/DATA/ACTIVE.db
+[RENDER SLIDER value=85 color=#00ff88 label=Trust Score]
+[RENDER TABLE query=SELECT * FROM BAYS]
+[RENDER QR value=verify-email]

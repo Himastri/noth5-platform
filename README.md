@@ -7,6 +7,7 @@ Command: D:\NOTH5_PYTHON\python.exe noth5_compiler_lite.py samples/workflow.noth
 - STAR token: YES
 - db.execute(): YES (not comment)
 - render.render_*_inside_bubble: YES
+- 
 # NOTH5 Platform V80 FINAL — Most Noticed and Understood Software Factory For Sure
 
 **Author and Owner of Entire Factory: Nagendra Prasad — Email: nagendra.prasadbk@gmail.com — Bangalore, Karnataka, India**

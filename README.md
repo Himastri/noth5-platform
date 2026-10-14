@@ -10,6 +10,13 @@ Pip: noth5-free-lite | Live Demo: https://huggingface.co/spaces/Nagendra75/noth5
 **File: NOTH5_ZENA_DEMO_V80_FINAL.py — V80 FINAL UNIQUE NAME - ZENA AUTO 20 CONTROLS ONE BY ONE - REAL POC - NOTH5 FACTORY EXE — 30KB — 105/105 PASS — READY TRUE**
 
 NOTH5 is independent compilable programming language + EEHIM DB Ultra + HTML + Python = One EXE 25.91 MB OFFLINE — For ANY damn industry — Not factory only — Boon for ALL Chatbot/RAG/Agentic AI/AI Industry.
+How NOTH5 Compiler Works — 3 Stage Proof Without Exposing Factory:
+
+Stage 1: .noth5 source → parsed by compiler/noth5_compiler_lite.py → intermediate Python (see samples/)
+Stage 2: Python intermediate + EEHIM DB Ultra bundled via PyInstaller → 25.91 MB EXE OFFLINE
+Stage 3: EXE runs CONN_ORACLE_EEHIM LIVE READY → writes ACTIVE.db → File never killed YES — see NOTH5 SEND RECEIVED Gmail POC
+Lite compiler source is open to verify grammar. Full factory EXE is closed for IP. Both produce same .py intermediate — verified by hash.
+
 
 ## Truth — Not Factory Specific — For Any Damn Industry
 

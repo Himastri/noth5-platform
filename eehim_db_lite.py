@@ -1,5 +1,6 @@
-def open(path):
-    print(f"[EEHIM DB Lite] open {path}")
-    class DB:
-        def select(self, q): return [{"id":1,"rps":75781}]
-    return DB()
+class DB:
+    def select(self, q): 
+        print(f"[DB SELECT] {q}")
+        return [{"id":1}]
+    def execute(self, q):
+        print(f"[DB EXECUTE] {q} - Lite demo, full factory executes")
